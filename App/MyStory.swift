@@ -12,13 +12,12 @@ let story = Story(pages: [
         //erklärung wer "i" ist
         text: """
         Hello stranger!
-        Finding yourself in the City of Naples and feel a little lost? Can't wait to find out more about this place? Or are you just up for a slightly different kind of experience?
-        I am Nina and a few months ago I was in your situation (yes, all of it!), so I made this little book of challenges for you.
-        Whatever you are up to, you just stumbled over this little book of challenges. It helps you to find your own adventures to make this beautiful city your home. To make unexpected discoveries and maybe get a glimpse of what is under the surface.
+        Are you finding yourself in the City of Naples and feeling a little lost? Can't wait to find out more about this place? Or are you just up for a slightly different kind of experience?
+        I am Nina and a few months ago I was in your situations (yes, all of them!), so I made this little book of challenges, to help you find your own adventures and make this beautiful city your home. And so you can make unexpected discoveries and maybe get a glimpse of what is under the surface.
         As you progress through the story it will change. So will you.
         """,
         choices: [
-             Choice(text: "Dive right in, im ready!", destination: 2),
+             Choice(text: "Okay, let's dive right in, im ready!", destination: 2),
             Choice(text: "Wait, how does this work?", destination: 1),
             
         ],
@@ -29,8 +28,7 @@ let story = Story(pages: [
         """
         When I chose to live in a city I've never been before, it felt like a big adventure. Exciting but also a bit intimidating. I was looking forward to discover new places, get to know the people and their way of living and learn things about myself along the way.
          I gathered all my beautiful friends to say goodbye and they handed me a little book. Full of challenges to deepen my experiences, to remind me to leave my comfort zone and as a way to be with me along the way.
-        I came back to it from time to time and having those experiences in the back of my head helped me to dive deeper, to go to places I would otherwise not have a reason to and to make this city feel more like home.
-        
+        From time to time I came back to that book and keeping those experiences in the back of my head helped me to dive deeper, to go to places I would otherwise not have a reason to and to make this city feel more like home.
         So this is yours. Choose your adventure, go out and live them! There is no time limit, no pressure and you can come back to it whenever you feel like it. Take the challenges literally or just go with the Idea of it. Its your adventure, have fun and enjoy the ride!
         """,
         choices: [
@@ -42,7 +40,7 @@ let story = Story(pages: [
         "First steps",
         text:
         """
-        A great way to get to know a city and their people better is to try their food. Depending on your social energy level you can go out and immerse yourself or find something to try at home.
+        One great way to get to know a city and their people better is to try their food. Depending on your social energy level you can go out and immerse yourself or find something to try at home.
         """,
         choices: [
             Choice(text: "I want to experience food and people", destination: 3),
@@ -51,7 +49,7 @@ let story = Story(pages: [
         ]
     ),
     StoryPage( // 3
-        "an open secret",
+        "An open secret",
         text:
         """
         Naples is famous for its streetfood, especially the pizza. Something in the air makes it so delicious that it is known all over the world. Wheather you go for the classics like Margaritha or Marinara or try one of the more unusual choices like "patate con wurstel", pay attention to the lightness of the bread and the taste of the tomato sauce. I highly recommend watching other customers, classic choices are loved for a reason. You can also practice a little italian!
@@ -105,7 +103,7 @@ let story = Story(pages: [
         //die choices passen nicht 100%
         text:
         """
-        A common chliché about Italian people is that they love to complain about food not done properly. Of course that's a stereotype, just look at all the new variations of pizza that are invented all the time. But why not have some harmless fun with it? Try to find a place that serves pizza con ananas and try it. Or, if you are feeling really adventurous, ask at a local pizza place to make you a pizza hawaii."
+        A common chliché about Italian people is that they love to complain about food not done properly. Of course that's a stereotype, just look at all the new variations of pizza that are invented all the time! But why not have some harmless fun with it? Try to find a place that serves pizza con ananas and try it. Or, if you are feeling really adventurous, ask at a local pizza place to make you a pizza hawaii."
         """,
         choices: [
             Choice(text: "The people here are great, I want to know more about them.", destination: 13),
@@ -128,7 +126,7 @@ let story = Story(pages: [
     ),
     StoryPage( // 9
              """
-        There is a public museum right under your feet! The stops of liena 1 ( and some of the linea 6) are individually designed by great architects and the space is also used to display some installations and pieces of art from some pretty talented (and reknown) artists.
+        There is a public museum right under your feet! The stops of linea 1 (and some of the linea 6) are individually designed by great architects and the space is also used to display some installations and pieces of art from some pretty talented (and reknowned) artists.
              Disover them one by one or challenge yourself by ascending and descending from the underground to the surface 15 times in one day!
         """,
         choices: [
@@ -159,11 +157,11 @@ let story = Story(pages: [
         """
         If you are a plant nerd like me, you might have already seen some cool plants in unexpected places.
         If you are new to the topic, there are some Apps that help you identify those green little buddies.
-        There are a few that only grow in this area, maybe you can find some of them?
+        There are a few plants that only grow in this area, maybe you can find some of them?
         """,
         choices: [
             Choice(text: "I want to take them hooommmme", destination: 18),
-            Choice(text: "Wild lemons! Volcanoes! Thats so exiting!", destination: 5)
+            Choice(text: "I wonder what kinds of crazy stuff they do with their fruits here!", destination: 5)
         ]
     ),
     StoryPage( // 13
@@ -177,7 +175,7 @@ let story = Story(pages: [
     ),
     StoryPage( // 14
         """
-        How about discovering the up and (be-)coming artists in the unisversity of fine arts? I heard that if you make it to the highest floor you might find them working on cool stuff and if you are lucky, some might want to talk about their work. Enjoy the creative energy and get inspired!
+        How about discovering the up and (be-)coming artists in the university of fine arts? I heard that if you make it to the highest floor you might find them working on cool stuff and if you are lucky, some might want to talk about their work. Enjoy the creative energy and get inspired!
         """,
 
         choices: [
@@ -190,8 +188,8 @@ let story = Story(pages: [
         Talking to strangers in this city is actually pretty easy. People tend to be open and kind and a lot of them don't care if you understand them, they keep explaining the beauties of their city to you anyway (in napulitano of course). So how about taking advantage of that and surprising them with a few words in their language?
         """,
         choices: [
-            Choice(text: "ok, one last challenge!", destination: 17),
-            Choice(text: "ok, one last challenge", destination: 16)
+            Choice(text: "Ok, one last challenge!", destination: 17),
+            Choice(text: "Ok, one last challenge", destination: 16)
         ]
     ),
     StoryPage( // 16
@@ -216,7 +214,7 @@ let story = Story(pages: [
     ),
     StoryPage( // 18
         """
-        Ok go on, steal some Oranges from a parking lot. Or mandarines from some of the many trees just accompanying the streets. They smell great, dont they? Maybe turn them into limoncello or cake?
+        Ok go on, steal some oranges from a parking lot. Or mandarines from some of the many trees just accompanying the streets. They smell great, dont they? Maybe turn them into Arancello or cake?
         """,
         choices: [
             Choice(text: "Discovering recipes feels great!", destination: 19),
