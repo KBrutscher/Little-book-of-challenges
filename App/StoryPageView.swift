@@ -32,7 +32,7 @@ struct StoryPageView: View {
                         .multilineTextAlignment(.center)
                         .frame(maxWidth: .infinity, alignment: .center)
                         .padding()
-                        .background(Color.gray.opacity(0.25))
+                        .background(Color.gray.opacity(0.4))
                         .foregroundColor(.black)
                         .cornerRadius(20)
                 }
@@ -42,7 +42,7 @@ struct StoryPageView: View {
        // .navigationTitle("Page \(pageIndex + 1)")
         .navigationTitle(story.pages[pageIndex].title!)
         .navigationBarTitleDisplayMode(.inline)
-        .background(Color.yellow.opacity(0.2))
+        .background(Color.yellow.opacity(0.55))
        
     }
 }

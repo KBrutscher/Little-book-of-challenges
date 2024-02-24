@@ -8,7 +8,8 @@ struct StoryView: View {
 
     var body: some View {
         NavigationStack {
-            StoryPageView(pageIndex: 0)
+            
+            StoryPageView(pageIndex: 1)
         }
     }
 }

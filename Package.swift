@@ -16,6 +16,8 @@ let package = Package(
         .iOSApplication(
             name: "Choose Your Own Story",
             targets: ["App"],
+            bundleIdentifier: "com.challenge.choose",
+            teamIdentifier: "T66N85ZKBW",
             displayVersion: "1.0",
             bundleVersion: "1",
             appIcon: .asset("AppIcon"),
@@ -29,7 +31,8 @@ let package = Package(
                 .landscapeRight,
                 .landscapeLeft,
                 .portraitUpsideDown(.when(deviceFamilies: [.pad]))
-            ]
+            ],
+            appCategory: "public.app-category.books"
         )
     ],
     targets: [

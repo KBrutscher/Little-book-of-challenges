@@ -27,7 +27,7 @@ struct StoryPage {
         self.title = ""
         self.text = text
         self.choices = choices
-        self.illustration = ""
+        self.illustration = "Vesuvio"
     }
     
     init(_ text: String, choices: [Choice], illustration: String) {
@@ -48,7 +48,7 @@ struct StoryPage {
         self.title = title
         self.text = text
         self.choices = choices
-        self.illustration = ""
+        self.illustration = "Vesuvio"
     }
 
 }
