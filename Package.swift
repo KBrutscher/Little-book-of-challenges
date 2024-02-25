@@ -8,13 +8,13 @@ import PackageDescription
 import AppleProductTypes
 
 let package = Package(
-    name: "Choose Your Own Story",
+    name: "Book of Challenges - Napoli Edition",
     platforms: [
         .iOS("16.0")
     ],
     products: [
         .iOSApplication(
-            name: "Choose Your Own Story",
+            name: "Book of Challenges - Napoli Edition",
             targets: ["App"],
             bundleIdentifier: "com.challenge.choose",
             teamIdentifier: "T66N85ZKBW",

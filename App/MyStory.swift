@@ -143,7 +143,7 @@ let story = Story(pages: [
         If that's too tame for you you can always test the relationship with your new favourite pizza place by ordering a Pizza Hawaii there. You might need to bring your own pineapple, though.
         """,
         choices: [
-            Choice(text: "The people here are so lovely, let's stop playing with teir feelings.", destination: 14),
+            Choice(text: "The people here are so lovely, let's stop playing with their feelings.", destination: 14),
             Choice(text: "That was fun but my social battery is running a little low...", destination: 12),
         ],
         illustration: "PizzaAna"
