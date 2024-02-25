@@ -17,13 +17,15 @@ let story = Story(pages: [
     ),
     StoryPage( // 1
         "Introduction",
-        //erwähnung von Neapel
-        //erklärung wer "i" ist
+       
         text: """
         Hello stranger!
         Are you finding yourself in the City of Naples and feeling a little lost? Can't wait to find out more about this place? Or are you just up for a slightly different kind of experience?
+        
         I am Nina and a few months ago I was in your situations (yes, all of them!), but luckily I had some help. A book full of challenges.
-        So I made one for you, to help you find your own adventures and make this beautiful city your home away from home. It doesn't matter how long you stay: With a little guidance you might make unexpected discoveries and maybe get a glimpse of what is under the surface.
+        
+        So I made one for you, to help you find your own adventures and make this beautiful city your home away from home. 
+        It doesn't matter how long you stay: With a little guidance you might make unexpected discoveries and maybe get a glimpse of what is under the surface.
         As you progress through the story it will change. So will you.
         """,
         choices: [
