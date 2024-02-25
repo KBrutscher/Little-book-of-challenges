@@ -41,11 +41,14 @@ let story = Story(pages: [
         text:
         """
         When I chose to live in a city I've never been before, it felt like a big adventure. Exciting but also a bit intimidating. I was looking forward to discover new places, get to know the people and their way of living and learn things about myself along the way. But it was also the first time I went to live abroad, all on my own. Would I be able to pull that off?
+        
          I gathered all my beautiful friends to say goodbye and they handed me a little book. It was full of challenges to deepen my experiences, to remind me to leave my comfort zone and as a way to be with me along the way.
         Every once in a while I came back to that book and keeping those experiences in the back of my head helped me to dive deeper, to go to places I would otherwise not have a reason to and to make this city feel more like a home.
+        
         So this is yours. Choose your adventures, go out and live them! There is no time limit, no pressure and you can come back to it whenever you feel like it. Take the challenges literally or just go with the Idea of it.
         Skip the ones you really can't do, take care of yourself.
         Try the ones that scare you, there might be something big for you to find!
+        
         Its your adventure, have fun and enjoy the ride!
         """,
         choices: [
