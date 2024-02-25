@@ -35,6 +35,8 @@ let story = Story(pages: [
         
     ),
     StoryPage( // 2
+        "About this book",
+        text: 
         """
         When I chose to live in a city I've never been before, it felt like a big adventure. Exciting but also a bit intimidating. I was looking forward to discover new places, get to know the people and their way of living and learn things about myself along the way. But it was also the first time I went to live abroad, all on my own. Would I be able to pull that off?
          I gathered all my beautiful friends to say goodbye and they handed me a little book. It was full of challenges to deepen my experiences, to remind me to leave my comfort zone and as a way to be with me along the way.
@@ -214,7 +216,8 @@ let story = Story(pages: [
         "Something for your tongue AND brain",
         text:
         """
-        Maybe you already noticed that the people here dont sound like the stuff you learned in your italian lessons? A lot of them are pretty proud that they speak their own language, called napulitano. How about you learn some basic words or phrases? I'm sure some of the locals will apreciate your interest and take it very serious to tech you something!
+        So you are still exploring? Keep that going, you are doing great!
+        Maybe you already noticed that the people here dont sound like the stuff you learned in your italian lessons? A lot of them are pretty proud that they speak their own language, called napulitano. How about you learn some basic words or phrases? I'm sure some of the locals will apreciate your interest and take it very serious to teach you something!
         """,
         choices: [
             Choice(text: "Got that, lets get some practice!", destination: 16),
@@ -222,31 +225,39 @@ let story = Story(pages: [
         ]
     ),
     StoryPage( // 15
+        "New Perspectives",
+        text:
         """
-        How about discovering the up and (be-)coming artists in the university of fine arts? I heard that if you make it to the highest floor you might find them working on cool stuff and if you are lucky, some might want to talk about their work. Enjoy the creative energy and get inspired!
+        I hear you, here is another challenge:
+        How about discovering the up and (be-)coming artists in the university of fine arts? I heard that if you make it to the highest floor you might find them working on cool stuff! And if you are lucky, some might want to talk about their work. Enjoy the creative energy and get inspired!
         """,
 
         choices: [
             Choice(text: "I can't wait to discover more communities!", destination: 17),
-            Choice(text: "Damn all that input made me hungry!", destination: 19)
+            Choice(text: "Damn, all that input made me hungry!", destination: 19)
         ],
         illustration: "Uni"
     ),
     StoryPage( // 16
-       
+        "Talk to a Stranger",
+        text:
         """
+        Wow, look at you, making progress, leaving your comfort zone and getting inspired! I think you are ready for this one:
         Talking to strangers in this city is actually pretty easy. People tend to be open and kind and a lot of them don't care if you understand them, they keep explaining the beauties of their city to you anyway (in napulitano of course). So how about taking advantage of that and surprising them with a few words in their language?
         """,
         choices: [
             Choice(text: "Ok, one last challenge!", destination: 18),
-            Choice(text: "Ok, one last challenge", destination: 17)
+            Choice(text: "Ok, one last challenge.", destination: 17)
         ],
         illustration: "stranger"
     ),
     StoryPage( // 17
+        "Moving in Circles",
+        text:
         """
-        There are a lot of traditional dances like tarantella or tammuriata that are getting rediscovered also by the young people here. If you find people making music and dancing the chances are high that someone might be open to teach you the basic steps. Enjoy being part of it and just let go of your perfectionism.
-              Or find a dancing class in one of the social centers or libraries, both provide a ton of cool activities to participate in. You might even find some friends along the way, who knows?
+        This one took me quite a while to finish, I kept asking and researching but it seemed almost too hard. But life is full of surprises when you are open for it, and I found myself dancing in circles on the top of a mountain. I'm so curious how this one goes for you. here it is:
+        There are a lot of traditional dances like tarantella or tammuriata that have been around for a long time. While never really abandoned, they are recently getting rediscovered by the young people here. If you find people making music and dancing the chances are high that someone might be open to teach you the basic steps. Enjoy being part of it and just let go of your perfectionism.
+            Or find a dancing class in one of the social centers or libraries, both provide a ton of cool activities to participate in. You might even find some friends along the way, who knows?
         """,
         choices: [
             Choice(text: "Thats a great ending to the story", destination: 21),
@@ -255,9 +266,12 @@ let story = Story(pages: [
         illustration: "Tambourine"
     ),
     StoryPage( // 18
+        "Find a Friend",
+        text:
         """
-        Especially if you are staying here for a longer time, you might want to share some of those experiences. Or get challenged more by someone who has a different perspective?
+        Especially if you are staying here for a longer time, you might want to share some of those experiences. Or get challenged more by someone with a different perspective?
         You might have gotten to know some people (or stray animals) by now, how about you spend more time with them? Here's one of the hardest challenges in life: Try to make a friend.
+        I know you got this.
         """,
         choices: [
             Choice(text: "Thats a great ending to the story.", destination: 21),
@@ -266,34 +280,48 @@ let story = Story(pages: [
         illustration: "GroupOfFriend"
     ),
     StoryPage( // 19
+        "Urban Foraging",
+        text:
         """
-        Ok go on, steal some oranges from a parking lot. Or mandarines from some of the many trees just accompanying the streets. They smell great, dont they? Maybe turn them into Arancello or cake?
+        So all these challenges made you hungry? If you crave some adrenaline or just enjoy to turn the abundance around you into something special, this might be the right idea for you:
+        Ready?
+        Ok go on, steal some oranges from a parking lot. Or mandarines from some of the many trees just accompanying the streets (leave the private ones alone). They smell great, dont they? Try turning them into Arancello, a cake or a very special marmelata.
         """,
         choices: [
             Choice(text: "Discovering recipes feels great!", destination: 20),
-            Choice(text: "Im ready to enjoy that while thinking about this journey.", destination: 21)
+            Choice(text: "I'm ready to enjoy that while reflecting about this journey.", destination: 21)
         ],
         illustration: "Oranges"
     ),
     StoryPage( // 20
+        "The Familiar",
+        text:
         """
-        Are you ready for a big challenge? Maybe you already met people that share your joy of cooking. Try to convince them to teach you a family recipe.
+        Are you ready for an almost impossible challenge? If someone can do it, its you!
+        Here it is, plain and simple:
+        Convince someone to teach you their secret family recipe for a local dish.
+        Buona fortuna e buon appetito!
         """,
         choices: [
-            Choice(text: "Thats a great way to end my stoy.", destination: 21),
+            Choice(text: "Thats a great way to end my story.", destination: 21),
             Choice(text: "I feel like there is so much more for me to try!", destination: 22)
         ],
         illustration: "Pot"
     ),
     StoryPage( // 21
+        "Reflection",
+        text:
         """
         Great job!
         Time to sit down and think about the amazing adventure you took yourself on. Did you leave your comfort zone? What did you learn about yourself? Where did you grow and what will be your next adventure?
         I'm so proud of you. Keep going you beautiful, badass, brave little human!
         """,
-        choices: []
+        choices: [
+        Choice(text: "Start again", destination: 1)]
     ),
     StoryPage( // 22
+        "Changing directions",
+        text:
         """
         Its great to see how much you enjoy this!
         Which direction do you want to go this time?
