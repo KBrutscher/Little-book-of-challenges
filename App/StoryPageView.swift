@@ -45,6 +45,7 @@ struct StoryPageView: View {
         .background(Color.yellow.opacity(0.55))
        
     }
+    
 }
 
 struct NonlinearStory_Previews: PreviewProvider {
