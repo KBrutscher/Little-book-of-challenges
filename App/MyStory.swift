@@ -22,7 +22,8 @@ let story = Story(pages: [
         text: """
         Hello stranger!
         Are you finding yourself in the City of Naples and feeling a little lost? Can't wait to find out more about this place? Or are you just up for a slightly different kind of experience?
-        I am Nina and a few months ago I was in your situations (yes, all of them!), so I made this little book of challenges, to help you find your own adventures and make this beautiful city your home. And so you can make unexpected discoveries and maybe get a glimpse of what is under the surface.
+        I am Nina and a few months ago I was in your situations (yes, all of them!), but luckily I had some help. A book full of challenges.
+        So I made one for you, to help you find your own adventures and make this beautiful city your home. You might make unexpected discoveries and maybe get a glimpse of what is under the surface.
         As you progress through the story it will change. So will you.
         """,
         choices: [
@@ -35,10 +36,10 @@ let story = Story(pages: [
     ),
     StoryPage( // 2
         """
-        When I chose to live in a city I've never been before, it felt like a big adventure. Exciting but also a bit intimidating. I was looking forward to discover new places, get to know the people and their way of living and learn things about myself along the way.
-         I gathered all my beautiful friends to say goodbye and they handed me a little book. Full of challenges to deepen my experiences, to remind me to leave my comfort zone and as a way to be with me along the way.
+        When I chose to live in a city I've never been before, it felt like a big adventure. Exciting but also a bit intimidating. I was looking forward to discover new places, get to know the people and their way of living and learn things about myself along the way. But it was also the first time I went to live abroad, all on my own. Would I be able to pull that off?
+         I gathered all my beautiful friends to say goodbye and they handed me a little book. It was full of challenges to deepen my experiences, to remind me to leave my comfort zone and as a way to be with me along the way.
         From time to time I came back to that book and keeping those experiences in the back of my head helped me to dive deeper, to go to places I would otherwise not have a reason to and to make this city feel more like home.
-        So this is yours. Choose your adventure, go out and live them! There is no time limit, no pressure and you can come back to it whenever you feel like it. Take the challenges literally or just go with the Idea of it. Its your adventure, have fun and enjoy the ride!
+        So this is yours. Choose your adventures, go out and live them! There is no time limit, no pressure and you can come back to it whenever you feel like it. Take the challenges literally or just go with the Idea of it. Skip the ones you really can't do, take care of yourself. Try the ones that scare you, there might be something big for you to find! Its your adventure, have fun and enjoy the ride!
         """,
         choices: [
             Choice(text: "Got it, im ready", destination: 3),
@@ -49,6 +50,7 @@ let story = Story(pages: [
         "First steps",
         text:
         """
+        Good to see you're making your first steps! Let's start with something easy:
         One great way to get to know a city and their people better is to try their food. Depending on your social energy level you can go out and immerse yourself or find something to try at home.
         """,
         choices: [
@@ -58,10 +60,12 @@ let story = Story(pages: [
         ]
     ),
     StoryPage( // 4
-        "An open secret",
+        "Find your favourite Pizza",
         text:
         """
-        Naples is famous for its streetfood, especially the pizza. Something in the air makes it so delicious that it is known all over the world. Wheather you go for the classics like Margaritha or Marinara or try one of the more unusual choices like "patate con wurstel", pay attention to the lightness of the bread and the taste of the tomato sauce. I highly recommend watching other customers, classic choices are loved for a reason. You can also practice a little italian!
+        Naples is famous for its streetfood, especially the pizza. Something magical happens when the dedication and love of the people meets the traditional ingrediences. Paired with fire, there must be something in the water or the airin that makes it so delicious that it is known all over the world.
+        Whether you go for the classics like Margaritha or Marinara or try one of the more unusual choices like "patate con wurstel", pay attention to the lightness of the bread and the taste of the tomato sauce. I highly recommend watching other customers, classic choices are loved for a reason. You can also practice a little italian!
+        Can you find your favourite one?
         """,
         choices: [
             Choice(text: "That was fun, I want to know more about food!", destination: 6),
@@ -72,10 +76,11 @@ let story = Story(pages: [
          illustration: "Pizza"
     ),
     StoryPage( // 5
-        "Family Business",
+        "Find your favourite Shop",
         text:
         """
-        Naples still has a lot of small shops, run by their owners, often times they are family businesses. Have a look at the beautiful displays of fruits and veggies, choose something that looks delicious and maybe even try something that you have never seen before. There are a lot of products that you can only find around here. Bring them to your kitchen and enjoy the simple pleasures of life. If you are not an experienced cook, maybe start with the world famous mozzarella di buffala, combine it with juicy tomatoes and create a refreshing insalata caprese?"
+        Naples still has a lot of small shops, run by their owners, often times they are family businesses. Have a look at the beautiful displays of fruits and veggies, choose something that looks delicious and maybe even try something that you have never seen before. There are a lot of products that you can only find around here. Bring them to your kitchen and enjoy the simple pleasures of life. If you are not an experienced cook, maybe start with the world famous mozzarella di buffala, combine it with juicy tomatoes and create a refreshing insalata caprese?
+        Try to find your favourite neighbourhood shop.
         """,
         choices: [
             Choice(text: "That was fun, I want to know more about food!", destination: 6),
@@ -87,11 +92,12 @@ let story = Story(pages: [
         " 1, 2, 3, Limonata!",
         text:
         """
+        Oh so you are ready for your next challenge? Here you go:
         Have you heard the story about naples waterbanks? Rooted in a tradition from the middle ages where people sold fresh water out of amphorea, since the 19th century they have fixed kiosks to provide a cool refreshment in the summer months. Found everywhere around south Italy, every region has their own little specialties.
-        They are decorated with flashing lights, the famous lemon of the Sorrento region and show the character and personal taste of the owner. Some of them are almost local celebrities!
+        They are decorated with flashing lights, displays of the famous lemon of the Sorrento region and show the character and personal taste of the owner. Some of them are almost local celebrities!
         As we are in a volcanic region, a speciality to find here is the sulphur water, which is believed to have therapeutic and - of course - aphrodisiac qualities.
-        Mixed with a splash of fresh lemon juice and a tiny bit of bicarbonate just before serving, you get a drink that explodes just like a volcano.
-             Its name "limonata cosce aperte" is also the way you should drink it: Leaning forward, legs wide open. let the bubbly madness begin!
+        Mixed with a splash of fresh lemon juice and a tiny bit of bicarbonate just before serving, you get a drink that explodes almost like a volcano.
+             Its name "limonata a cosce aperte" is also the way you should drink it: Leaning forward, legs wide open. Let the bubbly madness begin!
         """,
         choices: [
             Choice(text: "OMG I love public attention!", destination: 8),
@@ -100,9 +106,11 @@ let story = Story(pages: [
         illustration: "limonata"
     ),
     StoryPage( // 7
+        "Crossways",
+        text:
         """
         Great Choice! Look at you, taking care of your body!
-             Want to go for a little walk or do you feel like defeating the dragon of the sometimes complicated public transport system?
+             Do you want to go for a little walk or do you feel like defeating the dragon of the sometimes complicated public transport system?
         """,
         choices: [
             Choice(text: "Walking is fine", destination: 9),
@@ -111,23 +119,28 @@ let story = Story(pages: [
         ]
     ),
     StoryPage( // 8
-        "The pineapple",
+        "Causing a Scandal",
         //die choices passen nicht 100%
         text:
         """
-        A common chliché about Italian people is that they love to complain about food not done properly. Of course that's a stereotype, just look at all the new variations of pizza that are invented all the time! But why not have some harmless fun with it? Try to find a place that serves pizza con ananas and try it. Or, if you are feeling really adventurous, ask at a local pizza place to make you a pizza hawaii."
+        Ok lets try something a little more daring:
+        A common chliché about Italian people is that they love to complain about food not done properly.
+        Of course that's a stereotype, just look at all the new variations of pizza that are invented all the time! But why not have some harmless fun with it? Try to find a place that serves pizza con ananas and try it. Other guests might or might not be judging you. But that doesn't keep you from trying new things, right?
+        If that's too tame for you you can always test the relationship with your new favourite pizza place by ordering a Pizza Hawaii there. You might need to bring your own pineapple, though.
         """,
         choices: [
-            Choice(text: "The people here are great, I want to know more about them.", destination: 14),
-            Choice(text: "My social battery is running low...", destination: 12),
+            Choice(text: "The people here are so lovely, let's stop playing with teir feelings.", destination: 14),
+            Choice(text: "That was fun but my social battery is running a little low...", destination: 12),
         ],
         illustration: "PizzaAna"
     ),
     StoryPage( // 9
+        "Get lost in the Streets",
+        text:
         """
-              Get lost in the streets
-        
-        Whether you prefer the squared logic of Quarteri Spagnoli or the dark maze of the old town, wandering around without a map is an almost forgotten art. As the reception tends to be spotty anyway, why not embrace it? Just follow the crowd to a piazza shadowed by trees, follow the music you hear in the distance or play a little coin toss game on every fork in the road.
+        Great job at following something like a plan until here. Let's try to go without one:
+        Whether you prefer the squared logic of Quarteri Spagnoli or the dark maze of the old town, wandering around without a map is an almost forgotten art. As the reception tends to be spotty anyway, why not embrace it?
+        How about you just follow your gut, the music you hear in the distance or play a little coin toss game on every fork in the road. Be curious and you might find something special!
         """,
 
               choices: [
@@ -138,49 +151,68 @@ let story = Story(pages: [
         illustration: "Streets"
     ),
     StoryPage( // 10
+        "Find your favourite Metro Station",
+        text:
              """
-        There is a public museum right under your feet! The stops of linea 1 (and some of the linea 6) are individually designed by great architects and the space is also used to display some installations and pieces of art from some pretty talented (and reknowned) artists.
-             Disover them one by one or challenge yourself by ascending and descending from the underground to the surface 15 times in one day!
+        Ok enough daylight shenanigans, a real adventure story needs caves, right? Lets go underground:
+        There is a public museum right under your feet! To access it you need nothing but a metro ticket (and finding out where to buy the right one is a challenge in itself)...
+        The stops of linea 1 (and some of the linea 6) are individually designed by great architects and the space is also used to display some installations and pieces of art from some pretty talented (and reknowned) artists.
+             Disover them one by one or challenge yourself by ascending and descending from the underground to the surface 15 times in one day! Did you find your favourite one?
+        
+        (Accesability Note: There are elevators inside the stations. Some of the Art is only accessible by taking the escalators.)
         """,
         choices: [
             Choice(text: "I think I should see more Art", destination: 15),
-            Choice(text: "That was enough underground, i want to be in the sun!", destination: 9),
+            Choice(text: "That was enough underground, I want to be in the sun!", destination: 9),
         ],
              illustration: "Station"
     ),
     StoryPage( // 11
+        "About safety",
+        text:
              """
+        Of course I can't give you general advice, so here is my honest opinion:
         Naples is as safe as every big city, so if you apply basic precautions you should be fine. Pay attention to your surroundings, have your valuables close to your body (or leave them at home) to be safe from pickpockets in crowded areas, and generally trust your gut.
          Especially after sunset it might be a better choice to stay on the main roads where you see other people instead of taking the shortcut trough a dark and empty street.
+        
+        (Accessability Note: Especially in the historic center most of the streets are made from cobblestone with very narrow walkways. Quartieri Spagnoli has steep ways and stairs. In "richer" parts of the city like vomero the streets are wider and stairs are usually accommodated by escalators and lifts.)
         """,
         choices: [
             Choice(text: "Ok I'm ready now", destination: 9),
-            Choice(text: "I dont feel that now, how about a daylight activity?", destination: 12)
+            Choice(text: "I want to skip this, take me to different daylight activity?", destination: 12)
         ]
     ),
     StoryPage( // 12
+        "A secret Garden",
+        text:
         """
-        Did you notice the trees peaking over some walls? There are a lot of hidden backyards and gardens around. Try to find the garden inside the university building of political sciences!
+        Good Job at looking out for yourself! Let's do something from a cozy fairytale:
+        Maybe you noticed the trees peaking over some walls? There are a lot of hidden backyards and gardens around. Most of them are private but with a little pretending (that you are a student) this one should be fine: Try to find the garden inside the university building of political sciences!
         """,
         choices: [
             Choice(text: "I want to learn more about plants!", destination: 13),
-            Choice(text: "I want to learn more abot people!", destination: 14)
+            Choice(text: "I want to learn more about people!", destination: 14)
         ],
         illustration: "Garden"
     ),
     StoryPage( // 13
+        "flora incognita",
+        text:
         """
+        Ok let's give you a challenge that - if you enjoy it - is never really finished:
         If you are a plant nerd like me, you might have already seen some cool plants in unexpected places.
         If you are new to the topic, there are some Apps that help you identify those green little buddies.
-        There are a few plants that only grow in this area, maybe you can find some of them?
+        There are a few plants that only grow in the napoli area, maybe you can find some of them?
         """,
         choices: [
-            Choice(text: "I want to take them hooommmme", destination: 19),
-            Choice(text: "I wonder what kinds of crazy stuff they do with their fruits here!", destination: 6)
+            Choice(text: "I want to take them hooommmme!", destination: 19),
+            Choice(text: "Plants are nice, but I wonder what kinds of crazy stuff they do with their fruits here!", destination: 6)
         ],
         illustration: "Ginestra"
     ),
     StoryPage( // 14
+        "Something for your tongue AND brain",
+        text:
         """
         Maybe you already noticed that the people here dont sound like the stuff you learned in your italian lessons? A lot of them are pretty proud that they speak their own language, called napulitano. How about you learn some basic words or phrases? I'm sure some of the locals will apreciate your interest and take it very serious to tech you something!
         """,
